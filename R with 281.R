@@ -2,6 +2,7 @@ library(readr)
 X281 <- read_csv("C:/Users/apb38/Desktop/DR/enernoc-comm/enernoc-comm/enernoc-comm/csv/281.csv")
 View(X281)
 attach(X281)
+just a small change here
 
 #clean data a little
 df <-data.frame(X281)
